@@ -4,17 +4,16 @@
   "main": "index.js",
   "scripts": {
     "make-link": "node makeLinks.mjs",
-    "lint": "eslint",
+    "lint": "eslint .",
     "lint:inspect": "npx eslint-config-inspector"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "eslint": "~9.31.0"
+    "eslint": "8.57.1"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "~1.1.0",
     "@types/fs-extra": "~11.0.4",
     "fs-extra": "~11.3.0"
   }

@@ -1,0 +1,6 @@
+{
+  "ignorePatterns": ["link-src/**/*.js"],
+  "rules": {
+      "no-console": "error"
+  }
+}

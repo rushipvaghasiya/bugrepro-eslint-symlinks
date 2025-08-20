@@ -5,7 +5,7 @@
   "scripts": {
     "make-link": "node makeLinks.mjs",
     "lint": "eslint .",
-    "lint:inspect": "npx eslint-config-inspector"
+    "lint:inspect": "npx @eslint/config-inspector"
   },
   "author": "",
   "license": "ISC",
